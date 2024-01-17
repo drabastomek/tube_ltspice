@@ -1,0 +1,6 @@
+.subckt 6SN7 A G K
+* Sylvania Technical Manual
+XV1 A G K Triode
++params: MU=20.326 EX=1.446 KG1=1090.623 KP=174.604 KVB=26.056 VCT=0.0 RGI=2000 CCG=22P  CGP=1.8P CCP=11P
+.ends
+    

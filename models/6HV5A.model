@@ -1,0 +1,6 @@
+.subckt 6HV5A A G K
+* GE Datasheet 6HV5-A Frank Phillips page
+XV1 A G K Triode
++params: MU=412.675 EX=1.583 KG1=106.012 KP=1293.939 KVB=-12.914 VCT=0.5 RGI=2000 CCG=22P  CGP=1.8P CCP=11P
+.ends
+    
