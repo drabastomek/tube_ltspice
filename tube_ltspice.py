@@ -64,7 +64,7 @@ def tube_current(x0, Vp = Vp, Vg = Vg):
     return y
 
 def read_tube_data(tube):
-    with open(f'{tube}.m', 'r') as f:
+    with open(f'input_data/{tube}.m', 'r') as f:
         tube_txt = f.read()
 
     tube_data = {}
@@ -183,7 +183,7 @@ def generate_plot(xopt):
     plt.legend(loc='lower right')
     lims = plt.axis()
     plt.text(0, lims[-1] * .75 , param_plot)
-    plt.savefig(f'{tube_name}_fit_plot.png', dpi=300)
+    plt.savefig(f'plots/{tube_name}_fit_plot.png', dpi=300)
 
     return param_txt
 
@@ -195,7 +195,7 @@ XV1 A G K Triode
 .ends
     '''
 
-    with open(f'{tube_name}.model', 'w') as f:
+    with open(f'models/{tube_name}.model', 'w') as f:
         f.write(model)
 
 @click.command()
