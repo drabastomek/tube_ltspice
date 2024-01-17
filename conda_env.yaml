@@ -1,4 +1,4 @@
-name: ltspice2
+name: ltspice
 dependencies:
   - python=3.10
   - numpy
