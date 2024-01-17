@@ -1,0 +1,7 @@
+name: ltspice2
+dependencies:
+  - python=3.10
+  - numpy
+  - scikit-learn
+  - click
+  - matplotlib
